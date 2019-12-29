@@ -1,0 +1,8 @@
+# intellij #
+.idea/*
+!.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
+# osx #
+.DS_Store
