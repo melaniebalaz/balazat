@@ -18,14 +18,22 @@
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 
       <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/css/timeline.css" rel="stylesheet">
+      <link href="assets/css/hipster_cards.css" rel="stylesheet"/>
+      <link href="presentation-assets/css/demo.css" rel="stylesheet" />
+      <!-- Cards     -->
+
       <link href="assets/css/custom.css" rel="stylesheet">
 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Londrina+Solid&display=swap" rel="stylesheet">
 
-      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-      <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="assets/js/jquery.min.js"></script>
 
@@ -38,101 +46,85 @@
 
   <body>
 
-
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-
 		<!-- ==== HEADERWRAP ==== -->
         <header>
             <div class="container-fluid home-bg">
                 <div class="container padding-top">
-                    <h1 class="header-text">Melanie Balaz</h1>
-                    <h2>Code | Art | Design</h2>
+                        <h1 class="header-text">
+                            Melanie Balaz
+                        </h1>
+                    <h2>Code | Science | Art</h2>
                 </div>
             </div>
         </header>
 
 		<!-- ==== GREYWRAP ==== -->
-		<div class="container-fluid">
-            <div class="container text-center">
+		<div class="container-fluid" id="about">
+            <div class="container">
+                <div class="row">
 
-                <h1> I like to tell stories... </h1>
-                <img class="img img-circle" src="assets/img/me/head.jpg" height="120px" width="120px" alt="">
-                <p class="container padding-bottom">
-                    I am an IT Student from Vienna, Austria, getting involved in all sorts of things, head full of project ideas I am trying
-                    to make happen. Code, Design, Illustration and Photography are ways to express those ideas, to tell a story with. <br><br>
-                    Here are some things I am passionate about:
-                </p>
+                    <div class="col-7">
 
-                <div class="row padding-left">
-                    <div class="col-md-4 callout">
-                        <ul class="list-group text-left">
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Clean Code
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Genetics/Biology
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Computer Networks
-                            </li>
-                        </ul>
-                    </div><!-- col-lg-4 -->
-                    <div class="col-md-4 callout">
-                        <ul class="list-group text-left">
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Photography/Video
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Design/Illustration
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Web Development
-                            </li>
-                        </ul>
-                    </div><!-- col-lg-4 -->
-
-                    <div class="col-md-4 callout">
-                        <ul class="list-group text-left">
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Organizing events
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Challenges
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fa fa-heart heart-icon" aria-hidden="true"></i> Writing
-                            </li>
-                        </ul>
-                    </div><!-- col-lg-4 -->
-                </div><!-- row -->
+                        <h1> Challenges and patterns </h1>
+                        <p class="padded">
+                        I am a Life Science Informatics student at the University of Helsinki, with a passion for technology, science and various media of art.
+                        I like challenges of all sorts (in my freetime you will find me climbing up big rocks) and learning new things and I have come a long way from
+                        completing my diploma degree in multimedia in Vienna to working as a data analyst in cancer research in Helsinki. I write code and poetry, I love finding patterns
+                        in everything around me, I like to tell stories through illustration, photography, video editing, and design. I am most happy outside and one of my personal challenges
+                        is how to combine this love for movement and nature with science and technology.
+                        </p>
+                        <a class="btn" data-bs-toggle="collapse" href="#aboutme" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            More about me >>
+                        </a>
+                    </div>
+                </div>
             </div>
-		</div><!-- greywrap -->
-
+        </div>
 		<!-- ==== ABOUT ==== -->
+        <div class="container-fluid collapse" id="aboutme">
+            <div class="timeline">
+                <div class="timeline-label right">
+                    <div class="content-timeline" data-aos="fade-up">
+                        <h2>2013</h2>
+                        <p>I graduated from high school with the highest success grade and a specialization on biology.
+                            During the graduation year I was part of the core organising team of <a href="http://www.sci.or.at/category/river-jump/"> River Jump! </a>
+                            ,a volunteer-based environmental project funded by the EU, to bring together young people from 3 countries and learn about sustainability, nature conservation
+                            and activism in a festival format. River Jump! would continue to take place in various forms over the next three years. It was my first venture into organising
+                            bigger projects that required weekly meetings and continous effort, networking, grant applications and team communication. </p>
+                    </div>
+                </div>
+                <div class="timeline-label left">
+                    <div class="content-timeline" data-aos="fade-up">
+                        <a href="http://www.sci.or.at"> SCI Austria </a>  was an important part of my life for some years around that time. Apart from River Jump!, I helped organise some volunteer workcamps,
+                            participated and <a href="https://www.youtube.com/watch?v=zN0viyToV5I" > video-documented one </a> as part of an internship for SCI in Finland and was the workcamp leader
+                        of an environmental workcamp in Austria in cooperation with the Naturschutzbund Niederösterreich. I also made a <a href="https://www.youtube.com/watch?v=hlp6ymHN5e0" > video documentation </a> on the 'Wikipedia For Peace' workcamp
+                        taking place in Vienna in Cooperation with Wikipedia and Wikimedia. Moreover I took part in some of SCIs training courses, such as the "Training for Trainers" course in Antwerp, Belgium
+                        and a 'Sustainable Living' training Poland.
+                    </div>
+                </div>
+                <div class="timeline-label right">
+                    <div class="content-timeline" data-aos="fade-up">
+                        <h2>2013-2015</h2>
+                        <p>After graduating from school I went straight on to study applied Multimedia at the Graphische in Vienna. Photography, Illustration, Video-editing, had always been a consistent part of my life
+                            and I wanted to explore it more professionally. I learned my way around the Adobe Creative Suite, around studio photography and digital illustration, design, film and audio. It was a bit of everything,
+                            but the thing I enjoyed the most was web-development, which was completely new to me. In our diploma project my team explored various problems around high-rents and abandoned buildings in Vienna,
+                            as well as alternative living situations and I built a website to showcase the information we collected.
+                            I even moved into the <a href="https://wohnprojekt.wien/"> Wohnprojekt Wien, </a> a sociocratically organised, community-living project, to collect some first-hand experience on the topic. </p>
+                    </div>
+                </div>
+                <div class="timeline-label right">
+                    <div class="content-timeline" data-aos="fade-up">
+                        <h2>P Arch</h2>
+                        <p>Ready for a deeper dive? This course will take you even further</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!--
 		<div class="container-fluid text-center" id="tech">
                 <div class="container">
-                    <h1>IT PROJECTS</h1>
-                    <hr>
+                    <h1>Tech</h1>
+                    <hr class="styled">
                     <br>
                         <p>
                             I have always enjoyed speaking in foreign languages, and to me code has become a great tool
@@ -148,7 +140,7 @@
                 <div class="container">
                     <div class="row padding-bottom">
 
-                        <!-- VIDEO 1 -->
+
                         <div class="col-md-4 ">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RRFA3IbsyHs" allowfullscreen></iframe>
@@ -156,10 +148,10 @@
                             <div class="caption">
                                 <h3>Robot project</h3>
                             </div>
-                        </div><!-- /col -->
+                        </div>
 
 
-                        <!-- VIDEO 2 -->
+
                         <div class="col-md-4">
                           <div class="embed-responsive embed-responsive-16by9">
                               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/csPI1gFzXlY" allowfullscreen></iframe>
@@ -167,9 +159,9 @@
                             <div class="caption">
                                 <h3>IOT Application</h3>
                             </div>
-                        </div><!-- /col -->
+                        </div>
 
-                        <!-- VIDEO 3 -->
+
                         <div class="col-md-4">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <a data-toggle="modal" href="#intotech">
@@ -181,7 +173,7 @@
                             <div class="caption">
                                 <h3>IntoTech conference</h3>
                             </div>
-                        </div><!-- /col -->
+                        </div>
 
                         <div class="modal fade dark-text" id="intotech" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -194,175 +186,194 @@
                                           It was a free conference for people interested in technology, but with no or very little experience, who are interested in getting started with tech.
 
                                             <br><br>
-                                            <a href="https://into.technology/"> IntoTech Website </a>
+                                            <a href="intotech/index.html"> IntoTech Website </a> (now hosted here, formerly on into.technology)
                                             <br>
                                             <a href="blogposts/conference.html"> Blog Article on how IntoTech was organised </a>
                                         </p>
                                     </div>
-                                </div><!-- /.modal-content -->
-                            </div><!-- /.modal-dialog -->
-                        </div><!-- /.modal -->
+                                </div>
+                            </div>
+                        </div>
 
 
 
-                    </div><!-- /row -->
+                    </div>
                 </div>
 
-		</div><!-- container -->
+		</div> -->
+
+        <div class="container-fluid">
+            <div class="masonry-container">
 
 
-		<!-- ==== PHOTOGRAPHY ==== -->
-		<div class="container-fluid text-center" id="photography">
-            <div class="container">
-                <h1>PHOTOGRAPHY</h1>
-                <hr>
-                <br>
-                <p>
-                   Since I was little I was often seen running around with a camera in hand. I love taking photographs, and
-                    having photoshootings with people. I enjoy both analoge and digital photography, and developing my own film in the darkroom.
-                    <br><br>
-                    You can find more on my <a href="https://www.viewbug.com/member/melaniejacqueline"> ViewBug </a> or my <a href="https://www.facebook.com/melaniebalazphotography"> Facebook Page </a>.
-                </p>
-            </div>
-
-
-            <div class="container">
-                <div class="row">
-                    <!-- PORTFOLIO IMAGE 1 -->
-                    <div class="col-md-4 ">
-                        <figure>
-                            <a data-toggle="modal" href="#photo1">
-                                <div class="hover-holder">
-                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio01.jpg" alt="">
-                                </div>
-                            </a>
-                        </figure><!-- /figure -->
-                    </div><!-- row -->
-
-                    <div class="modal fade" id="photo1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <p><img class="img-responsive" src="assets/img/portfolio/photo/folio01.jpg" alt=""></p>
-                                </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-
-
-                    <div class="col-md-4 ">
-                        <figure>
-                            <a data-toggle="modal" href="#photo2">
-                                <div class="hover-holder">
-                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio02.jpg" alt="">
-                                </div>
-                            </a>
-                        </figure><!-- /figure -->
-                    </div><!-- /col -->
-
-                    <div class="modal fade" id="photo2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <p><img class="img-responsive" src="assets/img/portfolio/photo/folio02.jpg" alt=""></p>
-                                </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-
-                    <div class="col-md-4 ">
-                        <figure>
-                            <a data-toggle="modal" href="#photo3">
-                                <div class="hover-holder">
-                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio03.jpg" alt="">
-                                </div>
-                            </a>
-                        </figure><!-- /figure -->
-                    </div><!-- /col -->
-
-                    <div class="modal fade" id="photo3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <p><img class="img-responsive" src="assets/img/portfolio/photo/folio03.jpg" alt=""></p>
-                                </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card card-just-text"  data-radius="none" data-background="color" data-color="grey" >
+                        <div class="content">
+                            <h1 class="title title-grey">PHOTO <br>
+                                GRAPHY</h1>
+                        </div>
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/photo/folio01.jpg" />
+                    </div> <!-- end card -->
                 </div>
 
-                <br>
-                <div class="row padding-bottom">
-                    <!-- PORTFOLIO IMAGE 1 -->
-                    <div class="col-md-4 ">
-                        <figure>
-                            <a data-toggle="modal" href="#photo4">
-                                <div class="hover-holder">
-                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio04.jpg" alt="">
-                                </div>
-                            </a>
-                        </figure><!-- /figure -->
-                    </div><!-- row -->
-
-                    <div class="modal fade" id="photo4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <p><img class="img-responsive" src="assets/img/portfolio/photo/folio04.jpg" alt=""></p>
-                                </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-
-
-                    <div class="col-md-4 ">
-                        <figure>
-
-                            <a data-toggle="modal" href="#photo5">
-                                <div class="hover-holder">
-                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio05.jpg" alt="">
-                                </div>
-                            </a>
-
-                        </figure><!-- /figure -->
-                    </div><!-- /col -->
-
-                    <div class="modal fade" id="photo5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <p><img class="img-responsive" src="assets/img/portfolio/photo/folio05.jpg" alt=""></p>
-                                </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-
-                    <div class="col-md-4 ">
-                        <figure>
-
-                            <a data-toggle="modal" href="#photo6">
-                                <div class="hover-holder">
-                                    <img class="img-responsive " src="assets/img/portfolio/photo/folio06.jpg" alt="">
-                                </div>
-                            </a>
-
-                        </figure><!-- /figure -->
-                    </div><!-- /col -->
-
-                    <div class="modal fade" id="photo6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <p><img class="img-responsive" src="assets/img/portfolio/photo/folio06.jpg" alt=""></p>
-                                </div>
-                            </div><!-- /.modal-content -->
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/photo/folio02.jpg" />
+                    </div> <!-- end card -->
                 </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/photo/folio03.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card" data-radius="none" data-background="color" data-color="grey">
+                        <div class="content">
+                            <p class="description description-blue">
+                                Since I was little I was often seen running around with a camera in hand. I love taking photographs, and
+                                having photoshootings with people. I enjoy both analoge and digital photography, and developing my own film in the darkroom.
+                                <br>
+                                You can find more on my <a href="https://www.viewbug.com/member/melaniejacqueline"> ViewBug </a>
+                            </p>
+                        </div>
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/photo/folio04.jpg" />
+                    </div> <!-- end card -->
+                </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/photo/folio05.jpg" />
+                    </div> <!-- end card -->
+                </div>
+
+
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/photo/folio06.jpg" />
+                    </div> <!-- end card -->
+                </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card card-just-text"  data-radius="none" >
+                        <div class="content">
+                            <h1 class="title title-black">DESIGN</h1>
+                        </div>
+                    </div> <!-- end card -->
+                </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/design/folio07.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/design/folio08.png" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/design/folio09.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/design/folio10.jpg" />
+                    </div> <!-- end card -->
+                </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="content">
+                            <p class="description">
+                                I have experience with working with Illustrator, Photoshop and InDesign and over the years I have done a few
+                                smaller graphic design jobs. I have created Logos, Flyers, Webdesigns and Pictograms, Posters and I enjoy building websites such as the
+                                <a href="intotech/index.html"> IntoTech Website</a>, or the one you are looking at currently.
+                            </p>
+                        </div>
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/design/folio11.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/design/folio12.jpg" />
+                    </div> <!-- end card -->
+                </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card card-just-text"  data-radius="none">
+                        <div class="content">
+                            <h1 class="title">ILLUST <br>
+                                RATION</h1>
+                        </div>
+                    </div> <!-- end card -->
+                </div>
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/illustration/illu1.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/illustration/illu2.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/illustration/illu3.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/illustration/illu4.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/illustration/illu5.jpg" />
+                    </div> <!-- end card -->
+                </div>
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <img src="assets/img/portfolio/illustration/illu6.jpg" />
+                    </div> <!-- end card -->
+                </div>
+
+
+
+                <div class="card-box col-md-4 col-sm-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="content">
+                            <h4 class="title text-center"><a href="#">This is a plain Hipster Card, see for yourself</a></h4>
+                            <p class="description">
+                                I like adding an illustrated touch to graphic design projects, and I enjoy working with different media.
+                                Whether it is a digital painting, a vector graphic or a pen&paper sketch.
+                                I have illustrated book covers,
+                                created my own graphic novel with watercolors and filled a
+                                couple of sketchbooks.
+                            </p>
+                        </div>
+                    </div> <!-- end card -->
+                </div>
+
             </div>
         </div>
+
 
 
 
@@ -375,8 +386,8 @@
                 <br>
                 <p>
                     I have experience with working with Illustrator, Photoshop and InDesign and over the years I have done a few
-                    smaller graphic design jobs. I have created Logos, Flyers, Webdesigns and Pictograms and even though
-                    I am not trying to work as a graphic designer anymore, I try to keep up by practicing once in a while.
+                    smaller graphic design jobs. I have created Logos, Flyers, Webdesigns and Pictograms, Posters and I enjoy building websites such as the
+                    <a href="intotech/index.html"> IntoTech Website </a>, or the one you are looking at currently.
                 </p>
             </div>
             <div class="container">
@@ -715,51 +726,47 @@
             </div>
         </div><!-- /container -->
         <footer>
-			<div class="container text-center">
-                <hr>
-                <h1>Contact</h1>
-                <p>
-                    Contact me at melanie.j.balaz@gmail.com <br>
-                    Also find me on:
-
-                </p>
-                <a href="https://github.com/melaniebalaz">
-                <span class="fa-stack fa-lg social-media">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-                <a href="https://www.facebook.com/melaniebalazphotography">
-                <span class="fa-stack fa-lg social-media">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-                <a href="https://www.linkedin.com/in/melanie-balaz-13ab78132">
-               <span class="fa-stack fa-lg social-media">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-                <a href="https://twitter.com/melaniebalaz">
-                <span class="fa-stack fa-lg social-media">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-                </a>
-            </div>
 
             <div class="container-fluid text-center footer-color">
                 <p> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Melanie Balaz - Copyright 2017</p>
+                Contact me at melanie.j.balaz@gmail.com
             </div>
     </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/hipster-cards.js"></script>
+
+    <!--  Just for demo	 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+    <script src="presentation-assets/js/demo.js"></script>
+
+    <script>
+
+        $().ready(function(){
+
+            var $container = $('.masonry-container');
+
+
+            doc_width = $(document).width();
+
+            if (doc_width >= 768){
+                $container.masonry({
+                    itemSelector        : '.card-box',
+                    columnWidth         : '.card-box',
+                    transitionDuration  : 0
+                });
+            } else {
+                $('.mas-container').removeClass('mas-container').addClass('row');
+            }
+
+        });
+    </script>
   </body>
 </html>
