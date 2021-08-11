@@ -659,15 +659,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .card .content .title {
   margin: 10px 0 20px 0;
+  color:  #333333;
 }
 
-.title-grey {
-  color: #333333;
-}
 
-.title-black {
-  color: black;
-}
 .card .content .category ~ .title {
   margin-top: 0px;
 }

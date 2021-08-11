@@ -95,11 +95,14 @@ header h2 {
     margin-bottom:40px;
 }
 
+.clipped {
+    clip-path: polygon(82% 0, 0% 100%, 100% 90%);
+}
 /** SECTIONS **/
 
 
 .home-bg {
-    background:url("../img/header_bg.jpg") fixed no-repeat;
+    background:url("../img/header.jpg") fixed no-repeat;
     background-color:black;
     background-size: cover;
     text-align: center;
