@@ -18,6 +18,15 @@
   margin-left:0;
   margin-right:0;
   border: none;
+  background: transparent;
+  position: relative;
+  max-width: 95%;
+  margin-bottom: 0.5em;
+  margin-top:0.5em;
+
+}
+img {
+  box-shadow: 0 0 0 10px rgba(255,255,255,.25);
 }
 .card h1, .card .h1 {
   font-size: 52px;
@@ -131,46 +140,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
 }
 
-.btn {
-  border-width: 1px;
-  background-color: transparent;
-  font-weight: 400;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-  padding: 8px 16px;
-  border-color: #888888;
-  color: #888888;
-}
-.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle {
-  background-color: transparent;
-  color: #777777;
-  border-color: #777777;
-}
-.btn.disabled, .btn.disabled:hover, .btn.disabled:focus, .btn.disabled.focus, .btn.disabled:active, .btn.disabled.active, .btn:disabled, .btn:disabled:hover, .btn:disabled:focus, .btn:disabled.focus, .btn:disabled:active, .btn:disabled.active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus, .btn[disabled].focus, .btn[disabled]:active, .btn[disabled].active, fieldset[disabled] .btn, fieldset[disabled] .btn:hover, fieldset[disabled] .btn:focus, fieldset[disabled] .btn.focus, fieldset[disabled] .btn:active, fieldset[disabled] .btn.active {
-  background-color: transparent;
-  border-color: #888888;
-}
-.btn.btn-fill {
-  color: #FFFFFF;
-  background-color: #888888;
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-.btn.btn-fill:hover, .btn.btn-fill:focus, .btn.btn-fill:active, .btn.btn-fill.active, .open > .btn.btn-fill.dropdown-toggle {
-  background-color: #777777;
-  color: #FFFFFF;
-}
-.btn.btn-fill .caret {
-  border-top-color: #FFFFFF;
-}
-.btn .caret {
-  border-top-color: #888888;
-}
-.btn:hover, .btn:focus {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  outline: 0 !important;
-}
+
+
 
 
 .btn-primary {
@@ -486,13 +457,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-color: #FFFFFF;
 }
 
-.card {
-  background-color: #FFFFFF;
-  position: relative;
-  max-width: 95%;
-  margin-bottom: 0.5em;
-  margin-top:0.5em;
-}
 
 .card .title,
 .card .stats,
@@ -569,39 +533,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .card .actions {
   padding: 10px 15px;
 }
-.card .social-line .btn {
-  float: left;
-  display: block;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-}
-.card .social-line .btn-social {
-  border: 1px solid #EEEEEE;
-  border-radius: 0;
-  border-left: 0;
-  background-color: #FFFFFF;
-  padding: 12px 4px;
-}
-.card .social-line .btn-social:last-child {
-  border-right: 0;
-}
-.card .social-line[data-buttons="5"] .btn {
-  width: 20%;
-}
-.card .social-line[data-buttons="4"] .btn {
-  width: 25%;
-}
-.card .social-line[data-buttons="3"] .btn {
-  width: 33.3333333%;
-}
-.card .social-line[data-buttons="2"] .btn {
-  width: 50%;
-}
-.card .social-line:after {
-  clear: both;
-  display: table;
-  content: " ";
-}
+
 .card .filter,
 .card .header .actions {
   position: absolute;
@@ -703,6 +635,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   content: "";
   position: absolute;
 }
+
 
 .card.card-with-border .content {
   padding: 15px 5px 15px 5px;
