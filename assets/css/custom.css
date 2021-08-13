@@ -115,14 +115,9 @@ header h2 {
 }
 
 
-.blog-bg {
-    background:url("../img/blog_header_bg.png") fixed no-repeat;
-    background-size: cover;
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height:100vh;
+.bg {
+    background:url("../img/bg.png") repeat;
+    padding:0;
 }
 
 .info-box {
