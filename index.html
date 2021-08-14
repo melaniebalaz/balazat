@@ -1,461 +1,423 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Melanie Balaz Portfolio">
-    <meta name="author" content="Melanie Balaz">
+<html lang="zxx">
 
-    <title> Melanie Balaz</title>
+<head>
+  <meta charset="utf-8">
+  <title>Kross | Portfolio Template</title>
 
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
-    <meta property="og:image" content="https://melaniebalaz.github.io/assets/img/icon-header.png"/>
-    <meta property="og:title" content="Melanie Balaz Portfolio"/>
-    <meta property="og:url" content="https://melaniebalaz.github.io/"/>
-    <meta property="og:site_name" content="Melanie Balaz Portfolio"/>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Londrina+Solid&display=swap" rel="stylesheet">
 
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
 
-      <!-- Bootstrap core CSS -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body>
 
-    <!-- Custom styles for this template -->
-      <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-      <link href="assets/css/timeline.css" rel="stylesheet">
-      <link href="assets/css/cards_styling.css" rel="stylesheet"/>
-      <!-- Cards     -->
+<!-- hero area -->
+<section class="hero-area" id="parallax">
+  <div class="container-fluid">
+    <div class="container padding-top">
+      <h1 class="header-text">
+        Melanie Balaz
+      </h1>
+      <h2 class="header-text-light">Code | Science | Art</h2>
+    </div>
+  </div>
+</section>
+<!-- /hero area -->
 
-      <link href="assets/css/custom.css" rel="stylesheet">
+<!-- about -->
+<section class="section">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2 class=""> Challenges and patterns </h2>
+        <p class="paragraph-lg text-dark">
+          Hi! I am Melanie, an interdisciplinary scientist/developer/artist, with a passion for technology, bioinformatics and various media of art and design.
+          Originally from Vienna, Austria, I am currently living in Helsinki, Finland and completing my masters degree in Life Science Informatics at the University of Helsinki.
+          I like challenges of all sorts (in my freetime you will find me climbing up big rocks) and learning new things and I have come a long way from
+          completing my diploma degree in multimedia in Vienna to working as a data analyst in cancer research in Helsinki. I write code and poetry, I love finding patterns
+          in everything around me, and I like to tell stories through illustration, photography, video editing, and design.
+          Inbetween I like to organise events, such as the <a href="intotech/index.html"> IntoTech </a> Conference, or the <a href="http://www.sci.or.at/category/river-jump/"> River Jump! </a>  festival. I am most happy outside and one of my personal challenges
+          is how to combine this love for movement, travel and nature with science and technology.</p>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Londrina+Solid&display=swap" rel="stylesheet">
-
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-		<!-- ==== HEADERWRAP ==== -->
-        <div class="container-fluid bg">
-            <header>
-                <div class="container-fluid home-bg">
-                    <div class="container padding-top">
-                            <h1 class="header-text">
-                                Melanie Balaz
-                            </h1>
-                        <h2>Code | Science | Art</h2>
-                    </div>
-                </div>
-            </header>
-
-		<!-- ==== GREYWRAP ==== -->
-
-            <div class="container-fluid" id="about">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-7">
-
-                            <h1> Challenges and patterns </h1>
-                            <p class="padded">
-                                Hi! I am Melanie, an interdisciplinary scientist/developer/artist, with a passion for technology, bioinformatics and various media of art and design.
-                                Originally from Vienna, Austria, I am currently living in Helsinki, Finland and completing my masters degree in Life Science Informatics at the University of Helsinki.
-                                I like challenges of all sorts (in my freetime you will find me climbing up big rocks) and learning new things and I have come a long way from
-                                completing my diploma degree in multimedia in Vienna to working as a data analyst in cancer research in Helsinki. I write code and poetry, I love finding patterns
-                                in everything around me, and I like to tell stories through illustration, photography, video editing, and design. I am most happy outside and one of my personal challenges
-                                is how to combine this love for movement, travel and nature with science and technology.
-                            </p>
-                            <!--
-                            <a class="btn" data-bs-toggle="collapse" href="#aboutme" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                More about me >>
-                            </a>
-                            -->
-                        </div>
-                        <div class="col-md-5">
-                            <img src="assets/img/me.png" class="clipped img-fluid"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ==== ABOUT ==== -->
-            <div class="container-fluid collapse" id="aboutme">
-                <div class="timeline">
-                    <div class="timeline-label right">
-                        <div class="content-timeline" >
-                            <h2>2013</h2>
-                            <p>I graduated from high school with the highest success grade and a specialization on biology.
-                                During the graduation year I was part of the core organising team of <a href="http://www.sci.or.at/category/river-jump/"> River Jump! </a>
-                                ,a volunteer-based environmental project funded by the EU, to bring together young people from 3 countries and learn about sustainability, nature conservation
-                                and activism in a festival format. River Jump! would continue to take place in various forms over the next three years. It was my first venture into organising
-                                bigger projects that required weekly meetings and continous effort, networking, grant applications and team communication. </p>
-                        </div>
-                    </div>
-                    <div class="timeline-label left">
-                        <div class="content-timeline" >
-                            <a href="http://www.sci.or.at"> SCI Austria </a>  was an important part of my life for some years around that time. Apart from River Jump!, I helped organise some volunteer workcamps,
-                            participated and <a href="https://www.youtube.com/watch?v=zN0viyToV5I" > video-documented one </a> as part of an internship for SCI in Finland and was the workcamp leader
-                            of an environmental workcamp in Austria in cooperation with the Naturschutzbund Niederösterreich. I also made a <a href="https://www.youtube.com/watch?v=hlp6ymHN5e0" > video documentation </a> on the 'Wikipedia For Peace' workcamp
-                            taking place in Vienna in Cooperation with Wikipedia and Wikimedia. Moreover I took part in some of SCIs training courses, such as the "Training for Trainers" course in Antwerp, Belgium
-                            and a 'Sustainable Living' training Poland.
-                        </div>
-                    </div>
-                    <div class="timeline-label right">
-                        <div class="content-timeline" >
-                            <h2>2013-2015</h2>
-                            <p>After graduating from school I went straight on to study applied Multimedia at the Graphische in Vienna. Photography, Illustration, Video-editing, had always been a consistent part of my life
-                                and I wanted to explore it more professionally. I learned my way around the Adobe Creative Suite, around studio photography and digital illustration, design, film and audio. It was a bit of everything,
-                                but the thing I enjoyed the most was web-development, which was completely new to me. In our diploma project my team explored various problems around high-rents and abandoned buildings in Vienna,
-                                as well as alternative living situations and I built a website to showcase the information we collected.
-                                I even moved into the <a href="https://wohnprojekt.wien/"> Wohnprojekt Wien, </a> a sociocratically organised, community-living project, to collect some first-hand experience on the topic. </p>
-                        </div>
-                    </div>
-                    <div class="timeline-label right">
-                        <div class="content-timeline" >
-                            <h2>P Arch</h2>
-                            <p>Ready for a deeper dive? This course will take you even further</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--
-                   <div class="container-fluid text-center" id="tech">
-                           <div class="container">
-                               <h1>Tech</h1>
-                               <hr class="styled">
-                               <br>
-                                   <p>
-                                       I have always enjoyed speaking in foreign languages, and to me code has become a great tool
-                                       of explaining, building and telling stories. I like my code clean, and I try to stick to the
-                                       S.O.L.I.D principles whenever I can. Technology to me is much more than just lines of code,
-                                       it is a wonderful tool for getting people together, for sharing knowledge and for solving puzzles.
-                                       <br><br>
-                                       Have a look at some technology projects I made or was involved in. <br>
-                                       You can find more on my <a href="https://github.com/melaniebalaz"> github. </a>
-                                   </p>
-                           </div>
-
-                           <div class="container">
-                               <div class="row padding-bottom">
-
-
-                                   <div class="col-md-4 ">
-                                       <div class="embed-responsive embed-responsive-16by9">
-                                           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RRFA3IbsyHs" allowfullscreen></iframe>
-                                       </div>
-                                       <div class="caption">
-                                           <h3>Robot project</h3>
-                                       </div>
-                                   </div>
-
-
-
-                                   <div class="col-md-4">
-                                     <div class="embed-responsive embed-responsive-16by9">
-                                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/csPI1gFzXlY" allowfullscreen></iframe>
-                                     </div>
-                                       <div class="caption">
-                                           <h3>IOT Application</h3>
-                                       </div>
-                                   </div>
-
-
-                                   <div class="col-md-4">
-                                       <div class="embed-responsive embed-responsive-16by9">
-                                           <a data-toggle="modal" href="#intotech">
-                                               <div class="hover-holder">
-                                                   <img class="img-responsive " src="assets/img/intotech.png" alt="">
-                                               </div>
-                                           </a>
-                                       </div>
-                                       <div class="caption">
-                                           <h3>IntoTech conference</h3>
-                                       </div>
-                                   </div>
-
-                                   <div class="modal fade dark-text" id="intotech" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                       <div class="modal-dialog">
-                                           <div class="modal-content">
-                                               <div class="modal-header">
-                                                   <h2> IntoTech Conference </h2>
-                                               </div>
-                                               <div class="modal-body text-justify">
-                                                   <p>The IntoTech conference took place on the 11.11.2017 at the ImpactHub in Vienna and was organised by myself and a friend over the course of around a year in our free time.
-                                                     It was a free conference for people interested in technology, but with no or very little experience, who are interested in getting started with tech.
-
-                                                       <br><br>
-                                                       <a href="intotech/index.html"> IntoTech Website </a> (now hosted here, formerly on into.technology)
-                                                       <br>
-                                                       <a href="blogposts/conference.html"> Blog Article on how IntoTech was organised </a>
-                                                   </p>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-
-
-
-                               </div>
-                           </div>
-
-                   </div> -->
-
-            <div class="container-fluid">
-                <div class="row" data-masonry='{"percentPosition": true }'>
-                    <div class="card col-sm-6 col-md-4" >
-                        <div class="card-body"  data-radius="none" >
-                            <div class="content">
-                                <h1 class="title text-center">PHOTO <br>
-                                    GRAPHY</h1>
-                                <p class="description text-left">
-                                    Since I was little I was often seen running around with a camera in hand. I love taking photographs, and
-                                    having photoshootings with people. I enjoy both analoge and digital photography, and developing my own film in the darkroom.
-                                    <br>
-                                    You can find more on my <a href="https://www.viewbug.com/member/melaniejacqueline"> ViewBug </a>
-                                </p>
-                            </div>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/folio01.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo01.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo02.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo03.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo09.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo10.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo12.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo11.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo04.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/folio02.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/folio03.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/folio04.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/folio05.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo07.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/photo08.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-
-
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/photo/folio06.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body"  data-radius="none" >
-                            <div class="content">
-                                <h1 class="title text-center">DESIGN</h1>
-                                <p class="description text-left">
-                                    I have experience with working with Illustrator, Photoshop and InDesign and work experience as a web designer and a freelance graphic designer.
-                                    I have created Logos, Icons, Flyers, Webdesigns and Posters and I enjoy building websites such as the
-                                    <a href="intotech/index.html"> IntoTech Website</a>, or the one you are looking at currently.
-                                </p>
-                            </div>
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/design/folio07.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/design/folio08.png" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/design/folio09.png" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/design/folio10.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/design/folio11.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/design/folio12.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body"  data-radius="none">
-                            <div class="content">
-                                <h1 class="title text-center">ILLUST <br>
-                                    RATION</h1>
-                                <p class="description text-left">
-                                    I like adding an illustrated touch to graphic design projects, and I enjoy working with different media.
-                                    Whether it is a digital painting, a vector graphic or a pen&paper sketch.
-                                    I have illustrated book covers,
-                                    created my own graphic novel with watercolors and filled a
-                                    couple of sketchbooks.
-                                </p>
-                            </div>
-                        </div> <!-- end card -->
-                    </div>
-
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu1.png" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu4.png" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu2.png" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu3.png" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu9.png" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu5.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu6.png" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu7.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu8.jpg" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu10.png" class="img-fluid"/>
-                        </div> <!-- end card -->
-                    </div>
-                    <div class="card col-md-4 col-sm-6" >
-                        <div class="card-body">
-                            <img src="assets/img/portfolio/illustration/illu11.jpg" class="img-fluid" />
-                        </div> <!-- end card -->
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5 mt-5 mx-auto">
+        <div class="d-flex flex-row justify-content-center">
+          <img class="img-fluid clipped" src="images/me.png" alt="headshot">
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
 
-        <footer>
 
-            <div class="container-fluid text-center footer-color">
-                <p> Made with <i class="fa fa-heart" aria-hidden="true"></i> by Melanie Balaz - Copyright 2017</p>
-                Contact me at melanie.j.balaz@gmail.com
-            </div>
-    </footer>
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-book icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">Ongoing Studies</p>
+            <h4>Masters Degree in Life Science Informatics</h4>
+            <p class="mb-0 text-grey">University of Helsinki</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-book icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2020</p>
+            <h4>Bachelor in Information Technology</h4>
+            <p class="mb-0 text-grey">University of Vienna</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-book icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2015</p>
+            <h4>Multimedia Engineer Diploma</h4>
+            <p class="mb-0 text-grey">Die Graphische, Vienna</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-book icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">1998</p>
+            <h4>Secondary School Certificate</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /education -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="assets/js/hipster-cards.js"></script>
-  </body>
+<!-- services -->
+<section class="section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 mb-3 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-desktop icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Technology</h4>
+            <p> I have several years of experience of working in the technology field, whether as a system administrator, a backend developer with ErsteGroup
+              or a data analyst in cancer research lab. I like to write testable, maintainable, and clean code.
+              More on my <a href="https://github.com/melaniebalaz"> github. </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <div class="card active-bg-primary hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-camera icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Photography</h4>
+
+            <p>
+            Since I was little I was often seen running around with a camera in hand. I love taking photographs, and
+              having photoshootings with people. I enjoy both analoge and digital photography, and developing my own film in the darkroom.
+              <br>
+              More examples on my <a href="https://www.viewbug.com/member/melaniejacqueline"> ViewBug. </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-pencil icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Design</h4>
+            <p>I have experience with working with Illustrator, Photoshop and InDesign and work experience as a web designer and a freelance graphic designer.
+              I have created Logos, Icons, Flyers, Webdesigns and Posters and I enjoy building websites such as the
+              <a href="intotech/index.html"> IntoTech Website</a>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-palette icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Illustration</h4>
+            <p> I like adding an illustrated touch to graphic design projects, and I enjoy working with different media both digital and on paper.
+              I have illustrated book covers,
+              created my own graphic novel with watercolors and filled a
+              couple of sketchbooks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /services -->
+
+<!-- portfolio -->
+<section class="section">
+  <div class="container-fluid">
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="photo" />Photography
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="design" />Design
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="illustration" />Illustration
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo01.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo02.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo03.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo04.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo05.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo06.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo07.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo08.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo09.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo10.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo11.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo12.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo13.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo14.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo15.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;photo&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/photo/photo16.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+    <!-- PHOTO SECTION END -->
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/design/design1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/design/design2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/design/design3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/design/design4.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/design/design5.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/design/design6.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+
+      <!-- DESIGN END -->
+
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu3.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu4.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu5.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu6.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu7.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu8.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu9.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu10.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
+        <div class="position-relative rounded">
+          <img src="images/portfolio/illustration/illu11.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container text-center">
+        <h3 class="text-light"> Contact me at melanie.j.balaz(at)gmail.com </h3>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
