@@ -177,6 +177,22 @@ a:hover {
   box-shadow: none !important;
 }
 
+/* Button style */
+.btn {
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 16px 44px;
+  border-radius: 5px;
+  border: 0;
+  transition: .2s ease;
+}
+
+
+.btn-sm {
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
 .btn:active {
   box-shadow: none;
 }
